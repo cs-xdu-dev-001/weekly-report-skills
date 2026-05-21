@@ -161,4 +161,3 @@ macOS/Linux: ~/.codex/skills/research-weekly-report
 
 - 该 Skill 不包含具体项目数据、实验结果或私有论文内容；
 - 如果需要使用 Notion，需要当前 Codex 环境已经启用 Notion 相关能力并获得授权；
-- GitHub 发布前建议确认仓库中没有个人路径、私有截图、未脱敏数据和临时文件。
