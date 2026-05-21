@@ -105,13 +105,57 @@ research-weekly-report/
 
 ## 安装方式
 
-将整个 `research-weekly-report` 目录放到 Codex skills 目录下：
+### Windows 一行安装
 
-```text
-%USERPROFILE%\.codex\skills\research-weekly-report
+```powershell
+git clone https://github.com/cs-xdu-dev-001/weekly-report-skills.git `
+  "$env:USERPROFILE\.codex\skills\research-weekly-report"
 ```
 
-重新打开 Codex 后，在对话中直接提到 `research-weekly-report` 即可触发该 Skill。
+安装后重新打开 Codex，在对话中直接提到 `research-weekly-report` 即可触发该 Skill。
+
+### macOS / Linux 一行安装
+
+```bash
+git clone https://github.com/cs-xdu-dev-001/weekly-report-skills.git \
+  "$HOME/.codex/skills/research-weekly-report"
+```
+
+### 更新 Skill
+
+Windows:
+
+```powershell
+cd "$env:USERPROFILE\.codex\skills\research-weekly-report"
+git pull
+```
+
+macOS / Linux:
+
+```bash
+cd "$HOME/.codex/skills/research-weekly-report"
+git pull
+```
+
+### 手动安装
+
+也可以下载本仓库 ZIP，解压后将整个目录放到 Codex skills 目录下：
+
+```text
+Windows: %USERPROFILE%\.codex\skills\research-weekly-report
+macOS/Linux: ~/.codex/skills/research-weekly-report
+```
+
+确保目录中直接包含 `SKILL.md`，而不是多套一层目录。
+
+### 卸载
+
+删除对应目录即可：
+
+```text
+Windows: %USERPROFILE%\.codex\skills\research-weekly-report
+macOS/Linux: ~/.codex/skills/research-weekly-report
+```
 
 ## 注意事项
 
